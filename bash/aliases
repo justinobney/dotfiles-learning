@@ -1,0 +1,20 @@
+# Helpers
+alias glance="tree -L 2"
+alias o="open . &"
+alias l="ls -lah"
+alias dev="cd ~/dev/"
+alias home="cd ~/"
+function take {
+  mkdir $1
+  cd $1
+}
+
+# Processes
+alias tu="top -o cpu"
+alias tm="top -o vsize"
+
+# Git
+alias g="git status"
+
+# Config
+alias config="subl ~/bin/dotfiles/"

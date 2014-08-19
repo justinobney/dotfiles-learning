@@ -1,0 +1,5 @@
+export EDITOR="subl"
+
+export PATH=$PATH:/usr/local/bin:/Users/jobney:/Development/adt-bundle/sdk/tools:/Development/adt-bundle/sdk/platform-tools:~/bin
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
