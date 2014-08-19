@@ -71,4 +71,4 @@ On_IPurple='\e[0;105m'  # Purple
 On_ICyan='\e[0;106m'    # Cyan
 On_IWhite='\e[0;107m'   # White
 
-PS1="\n\[$ICyan\]\h\n\[$BIPurple\]\u::\[$IWhite\]\w \[$Color_Off\] \n→ "
+PS1="\n\[$UGreen\]\h\n\[$BIWhite\]\u :: \[$BIWhite\]\w \[$Color_Off\] \n→ "

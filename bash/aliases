@@ -1,12 +1,18 @@
 # Helpers
-alias glance="tree -L 2"
+alias peek="tree -L 2"
+alias glance="tree -L 1"
 alias o="open . &"
 alias l="ls -lah"
 alias dev="cd ~/dev/"
 alias home="cd ~/"
+
 function take {
   mkdir $1
   cd $1
+}
+
+function peekat {
+  peek $1
 }
 
 # Processes
